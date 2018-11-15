@@ -1,0 +1,31 @@
+{
+  "name": "@amindunited/write-file",
+  "version": "0.0.0",
+  "description": "A Promise wrapped implementation of node fs.writeFile",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc --reporter=html mocha './src/**/*.test.js' --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amindunited/write-file.git"
+  },
+  "keywords": [
+    "File",
+    "write",
+    "writeFile",
+    "Promise",
+    "fs"
+  ],
+  "author": "amindunited",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/amindunited/write-file/issues"
+  },
+  "homepage": "https://github.com/amindunited/write-file#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0",
+    "nyc": "^13.1.0"
+  }
+}
